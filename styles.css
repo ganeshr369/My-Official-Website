@@ -250,8 +250,24 @@ body {
     .info section h2 {
         font-size: 2.5rem;
     }
+    .info section h4 {
+        font-size: 1.5rem;
+    }
+    .info section p,
+    .info section ol li {
+        font-size: 1rem;
+    }
+    .a-education {
+        font-size: 1rem;
+    }
+    .skills ul {
+        font-size: 1rem;
+    }
     .hero button {
         font-size: 3rem;
+    }
+    .p-item a {
+        font-size: 1rem;
     }
     .social-links-container i {
         font-size: 2rem;
@@ -262,7 +278,20 @@ body {
         font-size: 2rem;
     }
     .info section h4 {
-        padding-left: 1.3rem;
+        font-size: 1.3rem;
+    }
+    .info section p,
+    .info section ol li {
+        font-size: 0.8rem;
+    }
+    .skills ul {
+        font-size: 0.8rem;
+    }
+     .a-education {
+        font-size: 0.8rem;
+    }
+    .p-item a {
+        font-size: 0.8rem;
     }
     .hero button {
         font-size: 2.5rem;
@@ -274,6 +303,22 @@ body {
 @media only screen and (max-width:460px) {
     .info section h2 {
         font-size: 1.5rem;
+    }
+    .info section h4 {
+        font-size: 1rem;
+    }
+    .info section p,
+    .info section ol li {
+        font-size: 0.6rem;
+    }
+     .a-education {
+        font-size: 0.6rem;
+    }
+    .skills ul {
+        font-size: 0.6rem;
+    }
+    .p-item a {
+        font-size: 0.6rem;
     }
     .hero button {
         font-size: 2rem;
