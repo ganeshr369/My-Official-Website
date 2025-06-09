@@ -4,32 +4,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganesh Rawat</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ganesh Rawat Official</title>
+    <meta name="description" content="Ganesh Rawat is an IT Student, Beginner Programmer. Visit his official site.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body oncontextmenu="return false;">
     <div class="main">
-        <div class="container">
+        <div id="container" class="container visible">
             <img src="bg.png" alt="bg-img">
             <div class="content">
                 <div class="name" id="name">Ganesh Rawat</div>
-                <div class="description" id="desc"></div>
                 <div class="social-links" id="social-links">
                     <a href="https://github.com/ganeshr369" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank"><i
+                            class="fa-brands fa-youtube"></i></a>
                     <a href="#"><i class="fa-brands fa-discord"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100058741285541" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100058741285541" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
                     <!-- <a href="https://www.linkedin.com/in/ganesh-rawat-755893318/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> -->
                     <!-- <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a> -->
-                    <a href="https://www.instagram.com/ganeshrawat05/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.instagram.com/ganeshrawat05/" target="_blank"><i
+                            class="fa-brands fa-square-instagram"></i></a>
                 </div>
                 <div class="thank-you">Thank You!</div>
+                <div class="info-div"><button onclick="toggleDiv()" class="info-btn">Info</button></div>
+                
             </div>
+        </div>
+        <div id="info" class="info hidden">
+
+            <section class="hero">
+                <h2>Hi, I'm Ganesh Rawat <button onclick="toggleDiv()"><i class="fa-solid fa-xmark"></i></button></h2>
+            </section>
+            <section class="about">
+                <h2>About</h2>
+                <h4>Education</h4>
+                <div class="a-education">
+                    <div class="date">2021-2024</div>
+                    <div class="details">Diploma in Information Technology at <a
+                            href="https://www.facebook.com/profile.php?id=100069069614680" target="_blank">Secondary
+                            School tulsipur Center</a>, Tulsipur-6, Dang </div>
+                </div>
+                <h4>Experience</h4>
+                <div class="a-education">
+                    <div class="date">xxxx-present</div>
+                    <div class="details">Studying</div>
+                </div>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                </ul>
+            </section>
+
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="p-item">
+                    <h4>Forum Website</h4>
+                    <p>This is a PHP project where people can post messages, read, and respond to messages from other
+                        participants, creating a sense of virtual community.</p>
+                    <a href="https://www.youtube.com/watch?v=n1onnAe40Ic" target="_blank">View Project</a>
+                </div>
+                <div class="p-item">
+                    <h4>Social Website</h4>
+                    <p>This is a PHP project where people can upload posts, like, comment, and share just like other
+                        facebook. Members can chat with other participants and get notifications on real time.</p>
+                    <a href="https://www.youtube.com/watch?v=-l1_C2n_NcA" target="_blank">View Project</a>
+                </div>
+
+                <div class="p-item">
+                    <h4>Machine Learning Project</h4>
+                    <ol>
+                        <li>Student Career Guidance System<a
+                                href="https://app-careerguidancesystem-byganeshrawat.streamlit.app/"
+                                target="_blank">Visit Project</a></li>
+                        <li>Movie Recommender System<a
+                                href="https://app-movierecommendersystem-byganeshrawat.streamlit.app/"
+                                target="_blank">Visit Project</a></li>
+                        <li>Student Performance Predictor System<a
+                                href="https://app-studentperfpredictor-app-byganeshrawat.streamlit.app/"
+                                target="_blank">Visit Project</a></li>
+                        <li>House Price Predictor System<a
+                                href="https://app-housepricepredictor-app-byganeshrawat.streamlit.app/"
+                                target="_blank">Visit Project</a></li>
+                        <li>Loan Default Predictor System<a
+                                href="https://app-loandefaultpredictor-app-byganeshrawat.streamlit.app/"
+                                target="_blank">Visit Project</a></li>
+                    </ol>
+                </div>
+            </section>
+
+            <section class="contact">
+                <h2>Contact</h2>
+                <div class="social-links-container">
+                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.github.com/ganeshr369" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/GaneshZRawat/" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ganeshrawat05/" target="_blank"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@ganeshrawxyz/" target="_blank"><i
+                            class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.x.com/GneshRawat/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </section>
+            <section class="footer">
+                <p>&copy; <span id="currentYear"></span> Ganesh Rawat. All rights reserved!</p>
+            </section>
         </div>
     </div>
     <script src="scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var currentYear = new Date().getFullYear();
+            document.getElementById('currentYear').textContent = currentYear;
+        });
+    </script>
 </body>
 
 </html>
