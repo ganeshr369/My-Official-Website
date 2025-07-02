@@ -143,8 +143,9 @@ body {
     font-size: 4rem;
     float: right;
     cursor: pointer;
-    background-color: #5e5e5e;
-    border: none;
+    background-color: #545353;
+    border: 1px solid #000;
+    padding: 0px 10px;
     border-radius: 6px;
 }
 

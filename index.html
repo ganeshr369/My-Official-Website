@@ -19,16 +19,17 @@
             <div class="content">
                 <div class="name" id="name">Ganesh Rawat</div>
                 <div class="social-links" id="social-links">
-                    <a href="https://github.com/ganeshr369" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank"><i
-                            class="fa-brands fa-youtube"></i></a>
-                    <a href="#"><i class="fa-brands fa-discord"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100058741285541" target="_blank"><i
-                            class="fa-brands fa-facebook"></i></a>
-                    <!-- <a href="https://www.linkedin.com/in/ganesh-rawat-755893318/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> -->
-                    <!-- <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a> -->
-                    <a href="https://www.instagram.com/ganeshrawat05/" target="_blank"><i
-                            class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/ganeshr369" target="_blank">
+                        <i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ganesh-rawat" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank">
+                        <i class="fa-brands fa-youtube"></i></a>
+                    
+                    <a href="https://www.facebook.com/profile.php?id=100058741285541" target="_blank">
+                        <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ganeshrawat05/" target="_blank">
+                        <i class="fa-brands fa-square-instagram"></i></a>
                 </div>
                 <div class="thank-you">Thank You!</div>
                 <div class="info-div"><button onclick="toggleDiv()" class="info-btn">Info</button></div>
@@ -63,10 +64,13 @@
                     <li>HTML5</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
+                    <li>Bootstrap</li>
                     <li>PHP</li>
+                    <li>MySQL</li>
                     <li>C</li>
                     <li>C++</li>
                     <li>Java</li>
+                    <li>React</li>
                 </ul>
             </section>
 
@@ -75,8 +79,9 @@
                 <div class="p-item">
                     <h4>Web Projects</h4>
                     <ol>
-                        <li>Note for DIT Students<a
-                                href="https://ganeshr369.github.io/Ganesh-Notes/" target="_blank">View Notes</a></li>
+                        <li>Note for DIT Students
+                            <a href="https://ganeshr369.github.io/Ganesh-Notes/" target="_blank">View Notes</a>
+                        </li>
                     </ol>
                 </div>
                 <div class="p-item">
@@ -107,6 +112,9 @@
                 <div class="p-item">
                     <h4>Machine Learning Projects</h4>
                     <ol>
+                        <li>MNIST Digit Prediction<a
+                                href="https://app-mnistdigitpredictor-byganeshrawat.streamlit.app/"
+                                target="_blank">Visit Project</a></li>
                         <li>Student Career Guidance System<a
                                 href="https://app-careerguidancesystem-byganeshrawat.streamlit.app/"
                                 target="_blank">Visit Project</a></li>
@@ -127,18 +135,25 @@
             </section>
 
             <section class="contact">
-                <h2>Contact</h2>
                 <div class="social-links-container">
-                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank"><i
-                            class="fa-brands fa-youtube"></i></a>
-                    <a href="https://www.github.com/ganeshr369" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.facebook.com/GaneshZRawat/" target="_blank"><i
-                            class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/ganeshrawat05/" target="_blank"><i
-                            class="fa-brands fa-square-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@ganeshrawxyz/" target="_blank"><i
-                            class="fa-brands fa-tiktok"></i></a>
-                    <a href="https://www.x.com/GneshRawat/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ganesh-rawat/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank">
+                        <i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.github.com/ganeshr369" target="_blank">
+                        <i class="fa-brands fa-github"></i></a>
+                    <a href="https://share.streamlit.io/user/ganeshr369" target="_blank">
+                        <i class="fa-brands fa-streamlit" style="text-decoration: capitalize;">St</i></a>
+                    <a href="https://www.facebook.com/GaneshZRawat/" target="_blank">
+                        <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ganeshrawat05/" target="_blank">
+                        <i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@ganeshrawxyz/" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.x.com/GneshRawat/" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://discordapp.com/users/ganesh_rawat" target="_blank">
+                        <i class="fa-brands fa-discord"></i></a>
                 </div>
             </section>
             <section class="footer">
@@ -152,7 +167,25 @@
             var currentYear = new Date().getFullYear();
             document.getElementById('currentYear').textContent = currentYear;
         });
-    </script>
+        
+        document.onkeydown = function (e) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+        }
+        </script>
 </body>
 
 </html>
