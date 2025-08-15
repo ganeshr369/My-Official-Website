@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ganesh Rawat</title>
-    <meta name="description"
-        content="Ganesh Rawat - Official Website of an IT student and programmer. Explore coding projects, tutorials, and tech blogs. Visit Ganesh Rawat on YouTube and GitHub.">
+    <meta name="description" content="Ganesh Rawat - Official Website of an IT student and programmer. Explore coding projects, tutorials, and tech blogs. Visit Ganesh Rawat on YouTube and GitHub.">
 
     <meta property="og:title" content="Ganesh Rawat - Programmer & IT Enthusiast">
-    <meta property="og:description"
-        content="Explore Ganesh Rawat's projects, tech tutorials, and developer journey. Follow on YouTube and GitHub.">
+    <meta property="og:description" content="Explore Ganesh Rawat's projects, tech tutorials, and developer journey. Follow on YouTube and GitHub.">
     <meta property="og:url" content="https://ganeshrawat.com.np">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Ganesh Rawat">
@@ -18,9 +16,7 @@
     <link rel="canonical" href="https://ganeshrawat.com.np">
 
     <link rel="icon" type="image/png" href="/bg.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -28,24 +24,31 @@
     <div class="main">
         <div id="container" class="container visible">
             <img src="bg.png" alt="bg-img">
-            <div class="content">
-                <div class="name" id="name">Ganesh Rawat</div>
-                <div class="social-links" id="social-links">
-                    <a href="https://github.com/ganeshr369" target="_blank">
-                        <i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ganesh-rawat" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank">
-                        <i class="fa-brands fa-youtube"></i></a>
-
-                    <a href="https://www.facebook.com/profile.php?id=100058741285541" target="_blank">
-                        <i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/ganeshrawatz/" target="_blank">
-                        <i class="fa-brands fa-square-instagram"></i></a>
+            <div class="background-effects">
+                <div class="starry-sky">
+                    <div class="stars" id="stars"></div>
+                    <div class="shooting-stars" id="shootingStars"></div>
                 </div>
-                <div class="thank-you">Thank You!</div>
-                <div class="info-div"><button onclick="toggleDiv()" class="info-btn">Info</button></div>
+                <div class="text-rain" id="textRain"></div>
+                <div class="floating-shapes" id="floatingShapes"></div>
+            </div>
 
+            <div class="text-particles" id="textParticles"></div>
+
+            <div class="main-content">
+                <h1 class="name">Ganesh Rawat</h1>
+
+                <div class="social-links">
+                    <a href="https://github.com/ganeshr369" target="_blank" class="social-link"> <i class="fab fa-github"></i> </a>
+                    <a href="https://www.linkedin.com/in/ganesh-rawat" target="_blank" class="social-link"> <i class="fab fa-linkedin-in"></i> </a>
+                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank" class="social-link"> <i class="fab fa-youtube"></i> </a>
+                    <a href="https://www.facebook.com/profile.php?id=100058741285541" target="_blank" class="social-link"> <i class="fab fa-facebook-f"></i> </a>
+                    <a href="https://www.instagram.com/ganeshrawatz/" target="_blank" class="social-link"> <i class="fab fa-instagram"></i> </a>
+                </div>
+
+                <div class="info-div">
+                    <button class="info-btn" onclick="toggleDiv()"><span>See More...</span></button>
+                </div>
             </div>
         </div>
         <div id="info" class="info hidden">
@@ -59,9 +62,7 @@
                 <h4>Education</h4>
                 <div class="a-education">
                     <div class="date">2021-2024</div>
-                    <div class="details">Diploma in Information Technology at <a
-                            href="https://www.facebook.com/profile.php?id=100069069614680" target="_blank">Secondary
-                            School tulsipur Center</a>, Tulsipur-6, Dang </div>
+                    <div class="details">Diploma in Information Technology at <a href="https://www.facebook.com/profile.php?id=100069069614680" target="_blank">Secondary School tulsipur Center</a>, Tulsipur-6, Dang </div>
                 </div>
                 <h4>Experience</h4>
                 <div class="a-education">
@@ -92,80 +93,53 @@
                 <div class="p-item">
                     <h4>Web Projects</h4>
                     <ol>
-                        <li>Note for DIT Students
-                            <a href="https://ganeshr369.github.io/Ganesh-Notes/" target="_blank">View Notes</a>
-                        </li>
+                        <li>Note for DIT Students <a href="https://ganeshr369.github.io/Ganesh-Notes/" target="_blank">View Notes</a> </li>
                     </ol>
                 </div>
                 <div class="p-item">
                     <h4>JS Projects</h4>
                     <ol>
-                        <li>My Personal Assistance<a href="https://ganeshr369.github.io/tryChat/" target="_blank">Try
-                                Chat</a></li>
-                        <li>Password Generator<a href="https://ganeshr369.github.io/passwordGenerator/"
-                                target="_blank">Generate Password</a></li>
+                        <li>My Personal Assistance<a href="https://ganeshr369.github.io/tryChat/" target="_blank">Try Chat</a></li>
+                        <li>Password Generator<a href="https://ganeshr369.github.io/passwordGenerator/" target="_blank">Generate Password</a></li>
                     </ol>
                 </div>
                 <div class="p-item">
                     <h4>React Projects</h4>
                     <ol>
-                        <li>Text Utils<a href="https://ganeshr369.github.io/Textutils-React/" target="_blank">View
-                                Project</a></li>
+                        <li>Text Utils<a href="https://ganeshr369.github.io/Textutils-React/" target="_blank">View Project</a></li>
                     </ol>
                 </div>
                 <div class="p-item">
                     <h4>PHP Projects</h4>
                     <ol>
-                        <li>Forum Website<a href="https://www.youtube.com/watch?v=n1onnAe40Ic" target="_blank">View
-                                Project</a></li>
-                        <li>Social Website<a href="https://www.youtube.com/watch?v=-l1_C2n_NcA" target="_blank">View
-                                Project</a></li>
+                        <li>Forum Website<a href="https://www.youtube.com/watch?v=n1onnAe40Ic" target="_blank">View Project</a></li>
+                        <li>Social Website<a href="https://www.youtube.com/watch?v=-l1_C2n_NcA" target="_blank">View Project</a></li>
                     </ol>
                 </div>
                 <div class="p-item">
                     <h4>Machine Learning Projects</h4>
                     <ol>
-                        <li>MNIST Digit Prediction<a href="https://app-mnistdigitpredictor-byganeshrawat.streamlit.app/"
-                                target="_blank">Visit Project</a></li>
-                        <li>Student Career Guidance System<a
-                                href="https://app-careerguidancesystem-byganeshrawat.streamlit.app/"
-                                target="_blank">Visit Project</a></li>
-                        <li>Movie Recommender System<a
-                                href="https://app-movierecommendersystem-byganeshrawat.streamlit.app/"
-                                target="_blank">Visit Project</a></li>
-                        <li>Student Performance Predictor System<a
-                                href="https://app-studentperfpredictor-app-byganeshrawat.streamlit.app/"
-                                target="_blank">Visit Project</a></li>
-                        <li>House Price Predictor System<a
-                                href="https://app-housepricepredictor-app-byganeshrawat.streamlit.app/"
-                                target="_blank">Visit Project</a></li>
-                        <li>Loan Default Predictor System<a
-                                href="https://app-loandefaultpredictor-app-byganeshrawat.streamlit.app/"
-                                target="_blank">Visit Project</a></li>
+                        <li>MNIST Digit Prediction<a href="https://app-mnistdigitpredictor-byganeshrawat.streamlit.app/" target="_blank">Visit Project</a></li>
+                        <li>Student Career Guidance System<a href="https://app-careerguidancesystem-byganeshrawat.streamlit.app/" target="_blank">Visit Project</a></li>
+                        <li>Movie Recommender System<a href="https://app-movierecommendersystem-byganeshrawat.streamlit.app/" target="_blank">Visit Project</a></li>
+                        <li>Student Performance Predictor System<a href="https://app-studentperfpredictor-app-byganeshrawat.streamlit.app/" target="_blank">Visit Project</a></li>
+                        <li>House Price Predictor System<a href="https://app-housepricepredictor-app-byganeshrawat.streamlit.app/" target="_blank">Visit Project</a></li>
+                        <li>Loan Default Predictor System<a href="https://app-loandefaultpredictor-app-byganeshrawat.streamlit.app/" target="_blank">Visit Project</a></li>
                     </ol>
                 </div>
             </section>
 
             <section class="contact">
                 <div class="social-links-container">
-                    <a href="https://www.linkedin.com/in/ganesh-rawat/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank">
-                        <i class="fa-brands fa-youtube"></i></a>
-                    <a href="https://www.github.com/ganeshr369" target="_blank">
-                        <i class="fa-brands fa-github"></i></a>
-                    <a href="https://share.streamlit.io/user/ganeshr369" target="_blank">
-                        <i class="fa-brands fa-streamlit" style="text-decoration: capitalize;">St</i></a>
-                    <a href="https://www.facebook.com/GaneshZRawat/" target="_blank">
-                        <i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/ganeshrawatz/" target="_blank">
-                        <i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@ganeshrawxyz/" target="_blank">
-                        <i class="fa-brands fa-tiktok"></i></a>
-                    <a href="https://www.x.com/GneshRawat/" target="_blank">
-                        <i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://discordapp.com/users/ganesh_rawat" target="_blank">
-                        <i class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.linkedin.com/in/ganesh-rawat/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@GANESHRAWATZ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.github.com/ganeshr369" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://share.streamlit.io/user/ganeshr369" target="_blank"><i class="fa-brands fa-streamlit" style="text-decoration: capitalize;">St</i></a>
+                    <a href="https://www.facebook.com/GaneshZRawat/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ganeshrawatz/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@ganeshrawxyz/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.x.com/GneshRawat/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://discordapp.com/users/ganesh_rawat" target="_blank"><i class="fa-brands fa-discord"></i></a>
                 </div>
             </section>
             <section class="footer">
