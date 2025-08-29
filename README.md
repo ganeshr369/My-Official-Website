@@ -1,6 +1,6 @@
 # 🌐 My Personal Website
 
-Welcome to my personal website! This site showcases who I am, the projects I’ve built, and how you can connect with me.
+Welcome to my Official website! This site showcases who I am, the projects I’ve built, and how you can connect with me.
 
 ## 🚀 Features
 
