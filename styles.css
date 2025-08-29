@@ -179,6 +179,22 @@ body {
     border-radius: 10px;
 }
 
+.lightening-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.5;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .main-content {
     position: absolute;
     top: 20%;
@@ -194,15 +210,28 @@ body {
     font-size: 5em;
     font-weight: 900;
     margin-bottom: 20px;
-    background: linear-gradient(to right, #2c76f8, #00f7ff, #8a2be2);
+    background: linear-gradient(45deg, #ff4e50, #f9d423, #6c5ce7, #00cec9, #fd79a8);
+    background-size: 400% 400%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     letter-spacing: 2px;
     text-shadow: 0 0 20px rgba(44, 118, 248, 0.3);
-    animation: fadeInUp 1s ease-out forwards, pulse 4s infinite;
+    animation: fadeInUp 1s ease-out forwards, pulse 4s infinite, gradientShift 8s ease infinite;
     opacity: 0;
     position: relative;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .name::after {
